@@ -17,6 +17,7 @@ async function bootstrap() {
     },
   );
 
+  console.log('Email service is listening...');
   await app.listen();
 }
 bootstrap();
